@@ -25,6 +25,7 @@
 * Miloš Gavrilović [@gavrisimo](http://twitter.com/gavrisimo), [github](https://github.com/gavrisimo)
 * Duc Nguyen [@ducntq](https://twitter.com/ducntq), [github](https://github.com/ducntq)
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
+* Stephane Moreau [github](https://github.com/stmoreau)  
 
 
 ## Todo código em qualquer aplicação deve parecer como se tivesse sido escrito por uma única pessoa, independentemente de quantas pessoas tenham contribuído.
@@ -54,6 +55,7 @@
 * [简体中文](https://github.com/rwldrn/idiomatic.js/tree/master/translations/zh_CN)
 * [Serbian - cyrilic alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ср_СР)
 * [Serbian - latin aplphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/sr_SR)
+* [Greek](https://github.com/rwaldron/idiomatic.js/tree/master/translations/gr_GR)  
 
 
 ## Conteúdo importante e não idiomático:
@@ -127,7 +129,7 @@ Projetos _devem_ incluir alguma forma de teste unitário, de referência, de imp
 
 ## Prefácio
 
-As seções a seguir descrevem um guia de estilos razoável para desenvolvimento de JavaScript moderno e não pretendem serem obrigatórias. A conclusão mais importante é a **lei da consistência de estilo de código**. O que for escolhido como estilo para o seu projeto deverá ser considerado lei. Faça um link para este documento como uma regra do seu projeto sobre comprometimento de consistência, legibilidade e manutenção de estilo de código.
+As seções a seguir descrevem um guia de estilos razoável para desenvolvimento de JavaScript moderno e não pretendem ser obrigatórias. A conclusão mais importante é a **lei da consistência de estilo de código**. O que for escolhido como estilo para o seu projeto deverá ser considerado lei. Faça um link para este documento como uma regra do seu projeto sobre comprometimento de consistência, legibilidade e manutenção de estilo de código.
 
 
 
@@ -949,7 +951,7 @@ As seções a seguir descrevem um guia de estilos razoável para desenvolvimento
 
     B. Faces do `this`
 
-    Além dos mais conhecidos casos de uso do `call` e `apply`, sempre prefira `.bind( this )` ou um equivalente funcional, para criar definições `BoundFunction` que possam serem invocadas posteriormente. Somente recorra ao aliasing quando não houver disponível uma outra opção preferencial.
+    Além dos mais conhecidos casos de uso do `call` e `apply`, sempre prefira `.bind( this )` ou um equivalente funcional, para criar definições `BoundFunction` que possam ser invocadas posteriormente. Somente recorra ao aliasing quando não houver disponível uma outra opção preferencial.
 
     ```javascript
 
@@ -1258,7 +1260,7 @@ As seções a seguir descrevem um guia de estilos razoável para desenvolvimento
 
   #### “Everything is Permitted: Extending Built-ins” por Andrew Dupont (JSConf2011, Portland, Oregon)
 
-  http://www.everytalk.tv/talks/441-JSConf-Everything-is-Permitted-Extending-Built-ins
+  https://www.youtube.com/watch?v=xL3xCO7CLNM
 
 
 9. <a name="comments">Comentários</a>

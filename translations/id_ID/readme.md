@@ -1,9 +1,9 @@
-# Zasady pisania zwartego, idiomatycznego kodu JavaScript
+# Principles of Writing Consistent, Idiomatic JavaScript
 
 
-## Dokument który czytasz powstał dzięki współpracy wielu ludzi, wszelkie działania aby uduskonalać kod dookoła nas jest są mile widziane. Dołącz się: fork, clone, branch, commit, push, pull request.
+## This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
 
-* Rick Waldron [@rwaldron](http://twitter.com/rwaldron), [github](https://github.com/rwldrn)
+* Rick Waldron [@rwaldron](http://twitter.com/rwaldron), [github](https://github.com/rwaldron)
 * Mathias Bynens [@mathias](http://twitter.com/mathias), [github](https://github.com/mathiasbynens)
 * Schalk Neethling [@ossreleasefeed](http://twitter.com/ossreleasefeed), [github](https://github.com/ossreleasefeed/)
 * Kit Cambridge  [@kitcambridge](http://twitter.com/kitcambridge), [github](https://github.com/kitcambridge)
@@ -32,29 +32,30 @@
 * Aleksandr Filatov [@greybax](http://twitter.com/greybax), [github](https://github.com/greybax)
 * Duc Nguyen [@ducntq](https://twitter.com/ducntq), [github](https://github.com/ducntq)
 * James Young [@jamsyoung](http://twitter.com/jamsyoung), [github](https://github.com/jamsyoung)
-* Wojciech Adaszyński [github](https://github.com/wojciechAdaszynski)
+* Hao-Wei Jeng [@l0ckys](http://twitter.com/l0ckys), [github](https://github.com/lockys)  
+* Richard Gibson [@gibson042](http://twitter.com/gibson042), [github](https://github.com/gibson042)  
+* Fesuy [github](https://github.com/fesuydev)  
 * Stephane Moreau [github](https://github.com/stmoreau)  
 
 
-## Cały kod w projekcie powinien wyglądać jakby pisała go jedna osoba, bez względu na to ile osób pracowało przy nim.
+## Semua kode dalam kode-base akan terlihat seperti satu orang mengetik itu, tidak peduli berapa banyak orang memberikan kontribusi.
 
-### Poniższa lista zasad została spisana przez orginalnego autora. Wszelkie poprawki czy tłumaczenia nie mogą naruszać pierwotnych zasad i logiki.
+### Daftar berikut menguraikan praktik yang digunakan dalam semua kode milik penulis asli; kontribusi untuk proyek-proyek yang saya buat harus mengikuti panduan ini.
 
-### Celem tego poradnika nie jest wymuszenie jedynego słusznego stylu pisania, jeżeli istnieją jakiekolwiek inne powszechnie używane zasady - należy je uszanować.
+### Saya tidak berniat untuk memaksakan preferensi gaya saya pada kode orang lain atau proyek; jika gaya umum sudah ada, itu harus dihormati.
 
 
-> ### "Spory dotyczące stylu kodu są bezsensowne. Powinny istnieć jasne zasady pisania czystego kodu, a programista powinien ich przestrzegać."
+> ### "Arguments over style are pointless. There should be a style guide, and you should follow it"
 >_Rebecca_ _Murphey_
 
 &nbsp;
 
-> ### "Częścią bycia dobrym zarządcą projektu jest zdanie sobie sprawy, że pisanie kodu pod siebie jest złym pomysłem. Jeżeli tysiące osób pracują nad jednym projektem, maksymalna czytelność powinna być twoim priorytetem, a nie twoje osobiste preferencje."
+> ### "Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec."
 >_Idan_ _Gazit_
 
 
-## Tłumaczenia
+## Translations
 
-* [ORIGINAL](https://github.com/rwldrn/idiomatic.js/)
 * [German](https://github.com/rwldrn/idiomatic.js/tree/master/translations/de_DE)
 * [French](https://github.com/rwldrn/idiomatic.js/tree/master/translations/fr_FR)
 * [Spanish](https://github.com/rwldrn/idiomatic.js/tree/master/translations/es_ES)
@@ -66,34 +67,38 @@
 * [Romanian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ro_RO)
 * [简体中文](https://github.com/rwldrn/idiomatic.js/tree/master/translations/zh_CN)
 * [Serbian - cyrilic alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ср_СР)
-* [Serbian - latin aplphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/sr_SR)
+* [Serbian - latin alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/sr_SR)
+* [繁體中文](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_TW)  
+* [Indonesian](https://github.com/rwaldron/idiomatic.js/tree/master/translations/id_ID)  
 * [Greek](https://github.com/rwaldron/idiomatic.js/tree/master/translations/gr_GR)  
 
+## Penting, Non-idiomatic Stuff:
 
-## Ważne, nieidiomatyczne rzeczy:
-
-### Narzędzia poprawiające jakość kodu, źródła i odnośniki
+### Code Quality Tools, Resources dan Referensi
 
  * [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
  * [Plato](https://github.com/es-analysis/plato)
  * [jsPerf](http://jsperf.com/)
  * [jsFiddle](http://jsfiddle.net/)
+ * [Codepen](http://codepen.io/)
  * [jsbin](http://jsbin.com/)
  * [JavaScript Lint (JSL)](http://javascriptlint.com/)
  * [jshint](http://jshint.com/)
  * [jslint](http://jslint.org/)
  * [eslint](http://eslint.org/)
  * [jscs](https://www.npmjs.org/package/jscs)
+ * [jscodesniffer](https://www.npmjs.org/package/jscodesniffer)
  * [Editorconfig](http://editorconfig.org/)
+ * [Hound](https://houndci.com/)
 
-## Dodatkowe materiały do nauki
+## Ayo Pintar
 
 ### [Annotated ECMAScript 5.1](http://es5.github.com/)
 ### [EcmaScript Language Specification, 5.1 Edition](http://ecma-international.org/ecma-262/5.1/)
 
-Poniższe materiały są: 1) niekompletne, lub 2) mimo tego, że kod jest spójny nie zgadzam się ze stylem autorów. Są oni jednak odpowiedzialni za bieżący standard języka JavaScript.
+berikut harus dipertimbangkan 1) tidak lengkap, dan 2) * DIBUTUHKAN MEMBACA *. Saya tidak selalu setuju dengan gaya yang ditulis oleh penulis di bawah ini, tapi satu hal yang pasti: Mereka konsisten. Selanjutnya, ini adalah otoritas pada bahasa.
 
- * [Baseline For Front End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
+ * [Baseline For Front End Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
  * [Eloquent JavaScript](http://eloquentjavascript.net/)
  * [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
  * [Adventures in JavaScript Development](http://rmurphey.com/)
@@ -104,16 +109,15 @@ Poniższe materiały są: 1) niekompletne, lub 2) mimo tego, że kod jest spójn
 
 
 
-### Uruchamianie i wdrażanie
+### Build dan Deployment Proses
 
-Projekty powinny zawsze zawierać środki umożliwiające testowanie, optymalizacje i kompresję do kodu produkcyjnego. Najlepszym do tego narzędziem jest [grunt](https://github.com/gruntjs/grunt) autorstwa Bena Almana.
-
-
+Proyek harus selalu berusaha untuk memasukkan beberapa cara generik dimana sumber dapat di lint, diuji dan dikompresi dalam persiapan untuk penggunaan produksi. Untuk tugas ini, [grunt](https://github.com/gruntjs/grunt) oleh Ben Alman terbaik dan telah resmi menggantikan "kit /" direktori dari repo ini.
 
 
-### Testowanie aplikacji
 
-Projekty _muszą_ zawierać w jakiejkolwiek postaci testy: jednostkowe, funkcjonalne i implementacyjne. Prezentacje przypadków użycia nie kwalifikują się pod "testy". Kolejność poniżysz frameworków do testów jest przypadkowa.
+### Test Fasilitas
+
+Proyek _must_ mencakup beberapa bentuk unit, referensi, implementasi atau uji fungsional. Demo kasus penggunaan tidak memenuhi syarat sebagai "test". Berikut ini adalah daftar test frameworks, yang mendukung lebih dari yang lain.
 
  * [QUnit](http://github.com/jquery/qunit)
  * [Jasmine](https://github.com/pivotal/jasmine)
@@ -123,59 +127,60 @@ Projekty _muszą_ zawierać w jakiejkolwiek postaci testy: jednostkowe, funkcjon
  * [JsTestDriver](https://code.google.com/p/js-test-driver/)
  * [Buster.js](http://busterjs.org/)
  * [Sinon.js](http://sinonjs.org/)
+ * [Tape](https://github.com/substack/tape)
 
-## Spis treści
+## Daftar Isi
 
- * [Białe znaki](#whitespace)
- * [Piękna składnia](#spacing)
- * [Sprawdzanie typów](#type)
- * [Instrukcje warunkowe](#cond)
- * [Praktyczny styl](#practical)
- * [Nazewnictwo](#naming)
- * [Pozostałe](#misc)
- * [Native & Host Objects](#native)
- * [Komentarze](#comments)
- * [Jeden język](#language)
+ * [Spasi](#whitespace)
+ * [Keindahan Syntax](#spacing)
+ * [Pemeriksaan Type (Courtesy jQuery Core Style Guidelines)](#type)
+ * [Evaluasi Kondisional](#cond)
+ * [Practical Style](#practical)
+ * [Naming](#naming)
+ * [Misc](#misc)
+ * [Native dan Host Objects](#native)
+ * [Komentar](#comments)
+ * [One Language Code](#language)
 
 
 
 ------------------------------------------------
 
 
-## Przedmowa
+## Kata Pengantar
 
-Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesny kod w języku JavaScript. Najważniejszą z nich jest **nakaz spójności kodu**. Niezależnie od obranego stylu w projekcie, pownien on być przestrzegany przez przystkich programistów.
-
-
+Bagian berikut menguraikan panduan gaya _reasonable_ untuk pengembangan JavaScript modern dan tidak dimaksudkan untuk menjadi preskriptif. Yang paling penting dibawa pulang adalah hukum ** konsistensi kode gaya **. Apa pun yang Anda pilih sebagai gaya untuk proyek Anda harus dipertimbangkan hukum. Link ke dokumen ini sebagai pernyataan komitmen proyek Anda untuk kode gaya konsistensi, pembacaan dan rawatan.
 
 
 
-## Manifest idiomatycznego kodu
 
 
-1. <a name="whitespace">Białe znaki</a>
-  - Nigdy nie używaj znaków spacji razem ze znakami tabulacji.
-  - Przed rozpoczęciem projektu ustal jeden znak indentacji (spacje lub tabulator).
-      - Dla czytelności sugeruję tobie ustawienie w środowsku programistycznym indentacji na 2 spacje. &mdash;.
-  - Jeżeli twój edytor obsługuje tę opcję, włącz wyświetlanie wszystkich znaków aby:
-      - Wymusić spójność
-      - Uniknąć białych znaków na końcu linii
-      - Uniknąć białych znaków w pustych liniach
-      - Wymusić czytelność Commitów i diffów
-  - Używaj [Editorconfig](http://editorconfig.org/) jeżeli tylko jest to możliwe.  Wspiera on większość środowisk programistycznych oraz załatwia większość problemów związanych z białymi znakami.
+## Manifesto Gaya Idiomatic
 
 
-2. <a name="spacing">Piękna składnia</a>
+1. <a name="whitespace">Spasi</a>
+  - Jangan pernah mencampur spasi dan tab.
+   - Ketika awal proyek, sebelum Anda menulis kode apapun, memilih antara indentasi lunak (spasi) atau tab nyata, pertimbangkan **hukum ini**.
+       - Untuk dibaca, saya selalu merekomendasikan pengaturan ukuran indent editor untuk dua karakter &mdash; ini berarti dua ruang atau dua ruang mewakili tab nyata.
+   - Jika editor mendukungnya, selalu bekerja dengan pengaturan "show invisibles" diaktifkan. Manfaat dari latihan ini adalah:
+       - Konsistensi
+       - Menghilangkan akhir baris spasi
+       - Menghilangkan kosong baris spasi
+       - Commits dan diffs yang mudah dibaca
+  - Gunakan [Editorconfig](http://editorconfig.org/) bila memungkinkan. Mendukung sebagian IDE dan menangani pengaturan penting spasi.
 
-    A. Nawiasy, nawiasy klamrowe, znaki nowej linii
+
+2. <a name="spacing">Keindahan Syntax</a>
+
+    A. Parens, Braces, Linebreaks
 
     ```javascript
 
-    // if/else/for/while/try zawsze występują ze spacją oraz nawiasami klamrowymi. Rozpinją się zawsze na kilka linii.
-    // Zwiększa to czytelność.
+    // if/else/for/while/try selalu memiliki ruang, kurung, dan renggang beberapa baris
+    // ini mendorong kemudahan membaca
 
     // 2.A.1.1
-    // Przykłady zagęszczonego kodu.
+    // Contoh dari syntax yang sukar dibaca
 
     if(condition) doSomething();
 
@@ -185,7 +190,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
 
     // 2.A.1.1
-    // Używaj białych znaków, aby zwiększyć czytelność.
+    // Gunakan spasi untuk mempermudah pembacaan
 
     if ( condition ) {
       // statements
@@ -199,7 +204,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       // statements
     }
 
-    // Lub nawet:
+    // Bahkan lebih baik:
 
     var i,
       length = 100;
@@ -208,7 +213,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       // statements
     }
 
-    // Lub...
+    // Atau...
 
     var i = 0,
       length = 100;
@@ -232,12 +237,12 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```
 
 
-    B. Przypisania, Deklaracje, Funkcje ( Named, Expression, Constructor )
+    B. Assignments, Declarations, Functions ( Named, Expression, Constructor )
 
     ```javascript
 
     // 2.B.1.1
-    // Zmienne
+    // Variables
     var foo = "bar",
       num = 1,
       undef;
@@ -248,64 +253,74 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
 
     // 2.B.1.2
-    // `var` powinno być używte tylko raz w fukcjach, aby zwiększyć czytelność kodu
-    // oraz ujednolicić twój kod (redukuje to również ilość kodu)
+    // Menggunakan hanya satu `var` per lingkup (fungsi) atau satu` var` untuk setiap variabel,
+    // Mempermudah pembacaan dan membuat daftar deklarasi Anda bebas dari kekacauan.
+    // Menggunakan satu `var` per variabel Anda dapat mengambil kontrol yang lebih dari versi Anda
+    // Dan membuatnya lebih mudah untuk menyusun ulang baris.
+    // Satu `var` per lingkup membuatnya lebih mudah untuk mendeteksi variabel terdeklarasikan
+    // Yang mungkin menjadi akan menjadi globals.
+    // Pilih baik untuk proyek Anda dan jangan pernah mencampur mereka.
 
-    // Źle
+    // Buruk
+    var foo = "",
+      bar = "";
+    var qux;
+
+    // Baik
     var foo = "";
     var bar = "";
     var qux;
 
-    // Dobrze
+    // atau..
     var foo = "",
       bar = "",
       qux;
 
-    // lub..
-    var // Komentarze dot. zmiennych
+    // atau..
+    var // Komentar disini
     foo = "",
     bar = "",
     quux;
 
     // 2.B.1.3
-    // `var` powinno znajdować się zawsze na początku funkcji.
+    // var statements harus selalu di awal lingkup masing-masing (fungsi).
 
 
-    // Źle
+    // Buruk
     function foo() {
 
-      // instrukcje
+      // beberapa statement disini
 
       var bar = "",
         qux;
     }
 
-    // Dobrze
+    // Baik
     function foo() {
       var bar = "",
         qux;
 
-      // wszelkie instrukcje funkcji
+      // semua statement setelah variabel dideklarasikan.
     }
 
     // 2.B.1.4
-    // const oraz let, z ECMAScript 6, powinny znajdować się na górze bloku(scope).
+    // const dan let, dari ECMAScript 6, juga harus berada di bagian atas ruang lingkup mereka (blok).
 
-    // Źle
+    // Buruk
     function foo() {
       let foo,
         bar;
       if ( condition ) {
         bar = "";
-        // instrukcje
+        // statements
       }
     }
-    // Dobrze
+    // Baik
     function foo() {
       let foo;
       if ( condition ) {
         let bar = "";
-        // instrukcje
+        // statements
       }
     }
     ```
@@ -313,25 +328,25 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```javascript
 
     // 2.B.2.1
-    // Deklaracje funkcji (Named Functions Declarations)
+    // Deklarasi nama fungsi
     function foo( arg1, argN ) {
 
     }
 
-    // Użycie
+    // Penggunaan
     foo( arg1, argN );
 
 
     // 2.B.2.2
-    // Deklaracje funkcji (Named Functions Declarations)
+    // Deklarasi nama fungsi
     function square( number ) {
       return number * number;
     }
 
-    // Użycie
+    // Penggunaan
     square( 10 );
 
-    // Wywoływanie funkcji z funkcji
+    // Benar-benar dibuat dengam gaya passing berkelanjutan
     function square( number, callback ) {
       callback( number * number );
     }
@@ -342,15 +357,15 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
 
     // 2.B.2.3
-    // Wyrażenia funkcyjne
+    // Ekspresi fungsi
     var square = function( number ) {
-      // zwróć bardzo istotną wartość
+      // Mengembalikan suatu nilai yang valuable dan relevan
       return number * number;
     };
 
-    // Wyrażenia funkcyjne z identyfikatorem
-    // Jest to preferowana forma deklaracji wyrażeń funkcyjnych.
-    // Umożliwia ona wołanie samej siebie oraz posiada identyfikator na Stack Trace
+    // Ekspresi fungsi dengan Identifier
+    // Bentuk yang disukai ini memiliki nilai tambah yang
+    // Mampu menyebut dirinya dan memiliki identitas di stack traces:
     var factorial = function factorial( number ) {
       if ( number < 2 ) {
         return 1;
@@ -361,13 +376,13 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
 
     // 2.B.2.4
-    // Deklarowanie konstruktora
+    // Deklarasi Constructor
     function FooBar( options ) {
 
       this.options = options;
     }
 
-    // Użycie
+    // Penggunaan
     var fooBar = new FooBar({ a: "alpha" });
 
     fooBar.options;
@@ -376,41 +391,41 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```
 
 
-    C. Wyjątki od poprzednich reguł
+    C. Exceptions, Slight Deviations
 
     ```javascript
 
     // 2.C.1.1
-    // Fukcje z callbackami
+    // Fungsi demham callbacks
     foo(function() {
-      // Zwróć uwagę na brak spacji między 'function',
-      // a pierwszym nawiasem
+      // Catatan: tidak ada ruang ekstra antara parent pertama
+      // Dari pelaksanaan pemanggilan fungsi dan kata "function"
     });
 
-    // Funkcje przyjmujące tablicę jako argument
+    // Fungsi menerima sebuah array, tidak ada ruang
     foo([ "alpha", "beta" ]);
 
     // 2.C.1.2
-    // Funkcje przyjmujące obiekt
+    // Fungsi menerima sebuah objek, tidak ada ruang
     foo({
       a: "alpha",
       b: "beta"
     });
 
-    // Funkcje przyjmujące pojedynczy string
+    // Satu argumen string literal, tidak ada ruang
     foo("bar");
 
-    // Nawiasy grupujące wewnętrze wyrażenie
+    // Ekspresi parents, tidak ada ruang
     if ( !("foo" in obj) ) {
-
+      obj = (obj.bar || defaults).baz;
     }
 
     ```
 
-    D. Spójność jest najważniejsza
+    D. Konsistensi Selalu Menang
 
-    W rozdziałach 2.A-2.C zasady dotyczące białych znaków służą jako wskazówki do utrzymania spójnego kodu.
-    Najważniejszym wnioskiem idącym z tego poradnika jest to, aby niezależnie od obranych preferencji(np. spacje wewnątrz ciała funkcji) utrymywane one były w całym projekcie.
+    Di bagian 2.A-2.C, aturan spasi yang ditetapkan sebagai rekomendasi dengan sederhana, tujuan yang lebih tinggi: konsistensi.
+     Sangat penting untuk dicatat bahwa format preferensi, seperti "inner whitespace" harus dipertimbangkan opsional, tetapi hanya satu gaya harus ada di seluruh sumber proyek Anda.
 
     ```javascript
 
@@ -436,17 +451,17 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     ```
 
-    E. Cudzysłów czy apostrof?
+    E. Tanda Kutip
 
-    Wybór ten nie wpływa w żaden sposób na działanie parsera JavaScript. **Należy** jednak używać tylko jednego z tych znaków w całym projekcie. **Nigdy nie mieszaj cudzysłowów z apostrowami.**
+    Apakah Anda lebih suka tunggal atau ganda seharusnya tidak masalah, tidak ada perbedaan dalam cara JavaScript mem-parsing mereka. Apa **BENAR-BENAR HARUS** harus ditegakkan adalah konsistensi. **Jangan pernah mencampur kutipan dalam proyek yang sama. Pilih satu gaya dan tetap dengan itu.**
 
-    F. Koniec linii oraz puste linie.
+    F. Akhir Baris dan Garis Kosong
 
-    Białe znaki potrafią w znaccy sposób utrudnić pracę programistów. Operacje *diff* stają się przez nie nieczytelne, a changeset projektu powoli zamienia się w śmietnik. Dobrym pomysłem jest używanie oprogramowania usuwającego białe znaki na końcu oraz w pustych liniach.
+    Spasi dapat merusak diffs dan membuat changesets mungkin untuk dibaca. Pertimbangkan menggabungkan hook pre-commit yang menghilangkan end-of-line spasi dan ruang kosong di baris kosong secara otomatis.
 
-3. <a name="type">Sprawdzanie typu</a>
+3. <a name="type">Pemeriksaan type(Courtesy jQuery Core Style Guidelines)</a>
 
-    A. Typy podstawowe
+    A. Actual Types
 
     String:
 
@@ -467,7 +482,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     Array:
 
         Array.isArray( arrayLikeObject )
-        (gdziekolwiek możliwe)
+        (wherever possible)
 
     Node:
 
@@ -487,7 +502,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
         typeof variable === "undefined"
 
-      Lokalne Zmienne:
+      Local Variables:
 
         variable === undefined
 
@@ -497,11 +512,11 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
         object.hasOwnProperty( prop )
         "prop" in object
 
-    B. Rzutowane typy
+    B. Coerced Types
 
-    Rozważmy następujący przypadek...
+    Mempertimbangkan implikasi dari berikut ...
 
-    Mając dany element:
+    Mengingat HTML ini:
 
     ```html
 
@@ -514,18 +529,20 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     // 3.B.1.1
 
-    // deklarujemy `foo` i przypisujemy mu wartość 0, jego typ to Number
+    // `Foo` telah dinyatakan dengan nilai `0` dan jenisnya adalah `number`
     var foo = 0;
 
     // typeof foo;
     // "number"
     ...
 
-    // Aktualizujemy `foo` wartością z elementu HTML
+    // Di suatu tempat dalam kode anda kemudian, Anda perlu memperbarui `foo`
+    // Dengan nilai baru yang berasal dari unsur masukan
 
     foo = document.getElementById("foo-input").value;
 
-    // Jeżeli teraz sprawdzilibyśmy wartość `typeof foo` wynosiła by ona String
+    // Jika Anda menguji `typeof foo` sekarang, hasilnya akan `string`
+    // Ini berarti bahwa jika Anda memiliki logika yang diuji `foo` seperti:
 
     if ( foo === 1 ) {
 
@@ -533,15 +550,15 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     }
 
-    // `importantTask()` nigdy nie zostałby wykonany, mimo że `foo` ma wartość "1"
+    // `importantTask()` tidak akan pernah dievaluasi, meskipun `foo` memiliki nilai "1"
 
 
     // 3.B.1.2
 
-    // Dzięki operatorom + i - możemy zastosować sprytne rzutowanie:
+    // Anda dapat mendahului masalah dengan menggunakan smart coercion dengan unary + atau - operators:
 
     foo = +document.getElementById("foo-input").value;
-    //    ^ jednoargumentowy operator + zrzutuje nam wartość Number na String
+    //    ^ unary + operator akan mengkonversi sisi operan haknya untuk nomor
 
     // typeof foo;
     // "number"
@@ -552,10 +569,10 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     }
 
-    // `importantTask()` będzie wtedy wykonany
+    // `importantTask()` akan terpanggil
     ```
 
-    Kilka przykładów zastosowania sprytnego rzutowania:
+    Berikut adalah beberapa kasus yang umum bersama dengan coercions:
 
 
     ```javascript
@@ -641,9 +658,9 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     !!~array.indexOf("d");
     // false
 
-    // Ostatnie przykłady mogą okazać się w póżniejszych etapach
-    //prac nad projektem uciążliwe.
-    // Polecanym zapisem powyższego przykładu jest:
+    // Perhatikan: bahwa di atas harus dipertimbangkan "unnecessarily clever"
+    // Memilih pendekatan yang jelas dari membandingkan nilai kembali dari
+    // IndexOf, seperti:
 
     if ( array.indexOf( "a" ) >= 0 ) {
       // ...
@@ -658,7 +675,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     parseInt( num, 10 );
 
-    // jest równoważne z:
+    // sama seperti...
 
     ~~num;
 
@@ -666,27 +683,27 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     num >>> 0;
 
-    // wszystkie powyższe dają 2
+    // All result in 2
 
 
-    // Ujemne wartości dają jednak dla tych operacji różne wyniki.
+    // Namun diingat, bahwa angka negatif akan diperlakukan berbeda...
 
     var neg = -2.5;
 
     parseInt( neg, 10 );
 
-    // to to samo co...
+    // sama seperti...
 
     ~~neg;
 
     neg >> 0;
 
-    // wszystkie dają -2
-    // Ale...
+    // Semua hasil di -2
+    // Namun ...
 
     neg >>> 0;
 
-    // da nam wynik 4294967294
+    // Akan menghasilkan 4294967294
 
 
 
@@ -695,103 +712,103 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
 
 
-4. <a name="cond">Instrukcje warunkowe</a>
+4. <a name="cond">Evaluasi Kondisional</a>
 
     ```javascript
 
     // 4.1.1
-    // Kiedy sprawdzamy czy tablica jest niepusta,
-    // zamiast zapisu:
+    // Ketika hanya mengevaluasi bahwa array memiliki panjang,
+    // maka seperti dibawah ini:
     if ( array.length > 0 ) ...
 
-    // ...lepiej sprawdzić czy zadana wartość jest *Truthy*:
+    // ...mengevaluasi truthiness, seperti ini:
     if ( array.length ) ...
 
 
     // 4.1.2
-    // Kiedy sprawdzamy czy tablica jest pusta,
-    // zamiast zapisu:
+    // Ketika hanya mengevaluasi bahwa array itu kosong,
+    // maka seperti dibawah ini:
     if ( array.length === 0 ) ...
 
-    // ...lepiej sprawdzić czy wartość jest *Falsy*:
+    // ...mengevaluasi truthiness, seperti ini:
     if ( !array.length ) ...
 
 
     // 4.1.3
-    // Kiedy sprawdzamy czy string jest niepusty
-    // zamiast zapisu:
+    // Ketika hanya mengevaluasi bahwa string tidak kosong,
+    // maka seperti dibawah ini:
     if ( string !== "" ) ...
 
-    // ...sprawdź czy zmienna jest *Truthy*:
+    // ...mengevaluasi truthiness, seperti ini:
     if ( string ) ...
 
 
     // 4.1.4
-    // Kiedy sprawdzamy czy string jest pusty:
-    // zamiast...
+    // Ketika hanya mengevaluasi bahwa string itu kosong,
+    // maka seperti dibawah ini:
     if ( string === "" ) ...
 
-    // ...sprawdź czy wyrażenie jest *Falsy*:
+    // ...mengevaluasi falsy-ness, seperti ini:
     if ( !string ) ...
 
 
     // 4.1.5
-    // Kiedy sprawdzamy czy typ logiczne jest prawdą,
-    // zamiast zapisu...
+    // Ketika hanya mengevaluasi bahwa referensi benar,
+    // maka seperti dibawah ini:
     if ( foo === true ) ...
 
-    // ...skorzystajmy z wyrażenia:
+    // ...mengevaluasi seperti yang Anda maksud itu, mengambil keuntungan dari dibangun pada kemampuan:
     if ( foo ) ...
 
 
     // 4.1.6
-    // Kiedy sprawdzamy czy typ logiczne jest fałszem,
-    // zamiast zapisu...
+    // Ketika mengevaluasi bahwa referensi adalah salah,
+    // maka seperti dibawah ini:
     if ( foo === false ) ...
 
-    // ...skorzystajmy z negacji:
+    // ...menggunakan negasi untuk memaksa evaluasi yang benar
     if ( !foo ) ...
 
-    // ...wyrażenie to jednak będzie prawdziwe również dla wartości: 0, null, undefined, NaN, ""
-    // jeżeli chcesz sprawdzić czy wyrażenie jest rzeczywiście fałszem:
+    // ...Hati-hati, ini juga akan cocok: 0, "", null, undefined, NaN
+    // Jika Anda _HARUS_ test untuk false boolean, maka gunakan
     if ( foo === false ) ...
 
 
     // 4.1.7
-    // Kiedy sprawdzasz czy zmienna ma wartość null lub undefined
-    // zamiast zapisu:
+    // Ketika hanya mengevaluasi ref yang mungkin nol atau undefined, tapi tidak false, "" atau 0,
+    // maka seperti dibawah ini:
     if ( foo === null || foo === undefined ) ...
 
-    // ...zastosuj operator ==:
+    // ...mengambil keuntungan dari == type coercion, seperti ini:
     if ( foo == null ) ...
 
-    // Pamiętaj, użycie == dopasuje `null` do `null` i `undefined`
-    // ale nie `false`, "" or 0
+    // Ingat, menggunakan == akan cocok dengan `null` untuk KEDUA` null` dan `undefined`
+    // tetapi tidak `false`," "atau 0
     null == undefined
 
     ```
-    Zawsze stosuj najdokładniejsze porównania, unikniesz dzięki temu wielu niechcianych rzutowań.
+    SELALU mengevaluasi untuk yang terbaik, hasil yang paling akurat - di atas merupakan pedoman, bukan dogma.
 
     ```javascript
 
     // 4.2.1
-    // Uwagi odnoście rzutowania typów i ich wartości
+    // Type coercion dan catatan evaluasi
 
-    // Wybieraj `===` nad `==` (chyba że przypadek dopuszcza domyślne rzutowanie)
+    // Prefer `===` over `==` (kecuali kasus memerlukan evaluasi jenis longgar)
 
-    // === nie rzutuje typu, tzn.:
+    // === menyamakan type, yang berarti bahwa:
 
     "1" === 1;
     // false
 
-    // == rzutuje typ, tzn.:
+    // == tidak menyamakan type, yang berarti bahwa::
 
     "1" == 1;
     // true
 
 
     // 4.2.2
-    // Typy logiczne, wartości Truthy i Falsy
+    // Booleans, Truthies & Falsies
 
     // Booleans:
     true, false
@@ -805,12 +822,12 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```
 
 
-5. <a name="practical">Praktyczny styl</a>
+5. <a name="practical">Practical Style</a>
 
     ```javascript
 
     // 5.1.1
-    // Praktyczny moduł
+    // Sebuah Modul Praktis
 
     (function( global ) {
       var Module = (function() {
@@ -818,30 +835,30 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
         var data = "secret";
 
         return {
-          // wartość logiczna
+          // Ini adalah beberapa properti boolean
           bool: true,
-          // Zmienna typu string
+          // Beberapa nilai string
           string: "a string",
-          // tablica jako pole obiektu
+          // Properti Array
           array: [ 1, 2, 3, 4 ],
-          // obiekt jako pole obiektu
+          // Properti objek
           object: {
             lang: "en-Us"
           },
           getData: function() {
-            // funkcja zwracająca `data`
+            // mendapatkan nilai saat ini dari `data`
             return data;
           },
           setData: function( value ) {
-            // funkcja ustawiająca `data` i zwracająca ją
+            // menetapkan nilai `data` dan mengembalikannya
             return ( data = value );
           }
         };
       })();
 
-      // pozostała część kodu
+      // Hal-hal lain yang mungkin terjadi di sini
 
-      // upubliczniamy moduł w zmiennej `global`
+      // mengekspos modul ke obyek global
       global.Module = Module;
 
     })( this );
@@ -851,7 +868,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```javascript
 
     // 5.2.1
-    // Praktyczny konstruktor
+    // Sebuah Constructor Praktis
 
     (function( global ) {
 
@@ -871,13 +888,13 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       };
 
 
-      // Aby wywołać konstruktor bez słowa kluczowego `new`
+      // Untuk memanggil konstruktor tanpa `new`, Anda mungkin melakukan hal ini:
       var ctor = function( foo ) {
         return new Ctor( foo );
       };
 
 
-      // upubliczniamy moduł w zmiennej `global`
+      // mengekspos konstruktor untuk obyek global
       global.ctor = ctor;
 
     })( this );
@@ -886,18 +903,18 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
 
 
-6. <a name="naming">Nazewnictwo</a>
+6. <a name="naming">Naming</a>
 
 
 
-    A. Nie próbuj być kompilatorem.
+    A. Anda bukan manusia kode compiler/kompresor, jadi jangan mencoba untuk menjadi salah satu.
 
-    Poniżej przedstawiony jest niedopuszczalny kod:
+    Kode berikut adalah contoh mengerikan penamaan:
 
     ```javascript
 
     // 6.A.1.1
-    // Przykład złych nazw
+    // Contoh kode dengan nama yang buruk
 
     function q(s) {
       return document.querySelectorAll(s);
@@ -905,15 +922,14 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     var i,a=[],els=q("#foo");
     for(i=0;i<els.length;i++){a.push(els[i]);}
     ```
+    Tanpa ragu, Anda sudah menulis kode seperti ini - mudah-mudahan yang berakhir hari ini.
 
-    Jeżeli twój kod przypomina powyższy przykład to musisz go koniecznie zmienić.
-
-    Kod wykonujący dokładnie tą samą logikę, lecz w bardziej przystępnej dla człowieka formie:
+    Berikut bagian logika yang sama, tetapi dengan ramah, penamaan yang lebih bijaksana(dan struktur yang mudah dibaca):
 
     ```javascript
 
     // 6.A.2.1
-    // przykład z poprawionymi nazwami
+    // Contoh kode dengan nama ditingkatkan
 
     function query( selector ) {
       return document.querySelectorAll( selector );
@@ -930,41 +946,42 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     ```
 
-   Kilka uwag odnoście nazw zmiennych:
+    Beberapa pointer penamaan tambahan:
 
     ```javascript
 
     // 6.A.3.1
-    // Nazwy zmiennych tekstowych
+    // Penamaan string
 
-    `dog` is a string
+    `dogs` adalah string
 
 
     // 6.A.3.2
-    // Tablice
+    // Penamaan array
 
-    `dogs` to tablica zmiennych `dog`
+    `dogs` adalah array dari` string dog`
 
 
     // 6.A.3.3
-    // Funkcje, obiekty, instancje
+    // Penamaan fungsi, objek, contoh, dll
 
-    camelCase; nazwy zmiennych i funkcji
+    CamelCase; Fungsi dan var deklarasi
 
 
     // 6.A.3.4
-    // Nazwy konstruktorów, prototypów, etc.
+    // Penamaan konstruktor, prototipe, dll
 
-    PascalCase; dla konstruktorów
+    PascalCase; fungsi konstruktor
+
 
     // 6.A.3.5
-    // nazwy dla wyrażeń regularnych
+    // Penamaan ekspresi reguler
 
     rDesc = //;
 
 
     // 6.A.3.6
-    // Z Google Closure Library Style Guide
+    // Dari Google Closure Library Style Guide
 
     functionNamesLikeThis;
     variableNamesLikeThis;
@@ -975,9 +992,9 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     ```
 
-    B. Oblicza `this`
+    B. Faces of `this`
 
-    Poza znanymi przykładami zastosowania `call` oraz `apply`, zawsze staraj się stosować funkcję `.bind( this )` do tworzenia `Związanych funkcji(BoundFunction)`. Zawsze staraj się przypisywać związaną funkcję do jakiejś zmiennej.
+    Di luar kasus penggunaan umum dikenal dengan `call` dan` apply`, lebih disarankan `.bind (this)` atau setara fungsional, untuk menciptakan definisi `BoundFunction` untuk invocation nanti. Hanya resor untuk aliasing ketika tidak ada pilihan yang lebih tersedia.
 
     ```javascript
 
@@ -986,35 +1003,38 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
       this.value = null;
 
-      // otwórz asynchroniczny strumień,
-      // this będzie wielokrotnie wywoływane
+      // Membuka aliran async,
+      // Ini akan disebut terus
       stream.read( opts.path, function( data ) {
 
-        // Zaktualizuj wartość this dla funkcji
-        // zaktualizowaną wartościa ze strumienia
+        // Perbarui nilai ini misalnya saat
+        // Dengan nilai terbaru dari
+        // aliran data
         this.value = data;
 
       }.bind(this) );
 
-      // Throttle the frequency of events emitted from
-      // this Device instance
+      // Throttle frekuensi dari event yang dipancarkan dari
+      // Contoh Device ini
       setInterval(function() {
 
-        // Emit a throttled event
+        // Memancarkan sebuah event throttled
         this.emit("event");
 
       }.bind(this), opts.freq || 100 );
     }
 
+    // Hanya berpura-pura kita telah mewarisi EventEmitter;)
+
     ```
 
-    Funkcje podobne do `.bind` istnieją w wielu bibliotekach.
+    Ketika tidak tersedia, setara fungsional untuk `.bind` ada di banyak perpustakaan JavaScript modern.
 
 
     ```javascript
     // 6.B.2
 
-    // np. lodash/underscore, _.bind()
+    // contoh: lodash/underscore, _.bind()
     function Device( opts ) {
 
       this.value = null;
@@ -1032,7 +1052,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       }, this), opts.freq || 100 );
     }
 
-    // np. jQuery.proxy
+    // contoh: jQuery.proxy
     function Device( opts ) {
 
       this.value = null;
@@ -1050,7 +1070,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       }, this), opts.freq || 100 );
     }
 
-    // np. dojo.hitch
+    // contoh: dojo.hitch
     function Device( opts ) {
 
       this.value = null;
@@ -1070,7 +1090,8 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     ```
 
-    Ostatnią możliwością jest ustawienie zmiennej `self` na `this`. Należy jednak unikać tego rozwiązania, ponieważ prowadzi do trudno wychwytywalnych błędów.
+    Sebagai usaha terakhir, membuat alias untuk `this` menggunakan` self` sebagai Identifier. Hal ini sangat rawan bug dan harus dihindari sebisa mungkin.
+
     ```javascript
 
     // 6.B.3
@@ -1096,9 +1117,9 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```
 
 
-    C. Użycie `thisArg`
+    C. Menggunakan `thisArg`
 
-    Kilka metod obiektu prototype w standardzie EcmaScript 5.1 zawierają specjalne oznaczenie `thisArg`, które powinno być wykorzystywane w miarę możliwości.
+    Beberapa metode prototipe built-in ES 5.1 datang dengan signature khusus `thisArg`, yang harus digunakan bila memungkinkan
 
     ```javascript
 
@@ -1110,13 +1131,13 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     Object.keys( obj ).forEach(function( key ) {
 
-      // |this| now refers to `obj`
+      // |this| sekarang mengacu pada `obj`
 
       console.log( this[ key ] );
 
-    }, obj ); // <-- ostatnim argumentem jest `thisArg`
+    }, obj ); // <-- arg terakhir adalah `thisArg`
 
-    // Prints...
+    // Cetak...
 
     // "foo"
     // "bar"
@@ -1124,20 +1145,24 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     ```
 
-    `thisArg` może być używane z  `Array.prototype.every`, `Array.prototype.forEach`, `Array.prototype.some`, `Array.prototype.map`, `Array.prototype.filter`
+    `thisArg` dapat digunakan dengan `Array.prototype.every`, `Array.prototype.forEach`, `Array.prototype.some`, `Array.prototype.map`, `Array.prototype.filter`
 
-7. <a name="misc">Pozostałe</a>
+7. <a name="misc">Misc</a>
 
-    This section will serve to illustrate ideas and concepts that should not be considered dogma, but instead exists to encourage questioning practices in an attempt to find better ways to do common JavaScript programming tasks.
+    Bagian ini akan berfungsi untuk menggambarkan ide-ide dan konsep-konsep yang tidak boleh dianggap dogma, melainkan ada untuk mendorong praktik mempertanyakan dalam upaya untuk menemukan cara yang lebih baik untuk melakukan tugas-tugas pemrograman umum JavaScript.
 
-    Ten rozdział opisuje metody, które nie powinne być traktowane jako żelazne zasady, lecz jako style które programista w miarę swoich preferencji może przyjąć lub nie. Jest to również próba zachęcenia do znajdowania lepszych sposobów realizacji bardzo często spotykanych problemów w kodzie JavaScript.
+    A. Menggunakan `switch` harus dihindari, cara modern tracing akan blacklist fungsi dengan switch statements
 
-    A. Używanie instrukcji `switch` powinno być ograniczone do minimum. Śledzenie wywołań funkcji w kodzie może ignorować te wywołane ze `switch`.
+    Tampaknya ada peningkatan drastis untuk pelaksanaan `switch` dalam rilis terbaru dari Firefox dan Chrome.
+      http://jsperf.com/switch-vs-object-literal-vs-module
+
+    Perbaikan penting dapat dilihat di sini juga:
+    https://github.com/rwldrn/idiomatic.js/issues/13
 
     ```javascript
 
     // 7.A.1.1
-    // Przykład użycia `switch`
+    // Contoh switch statement
 
     switch( foo ) {
       case "alpha":
@@ -1147,27 +1172,31 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
         beta();
         break;
       default:
-        // domyślny kod
+        // sesuatu untuk default
         break;
     }
 
     // 7.A.1.2
-    // innym sposobem jest trzymanie przypadków w obiekcie:
+    // Pendekatan alternatif yang mendukung composability dan usabilitas adalah untuk
+    // menggunakan objek untuk menyimpan "cases" dan fungsi untuk mendelegasikan:
 
     var cases, delegator;
 
-    // Przykład:
+    // Contoh return hanya untuk ilustrasi.
     cases = {
       alpha: function() {
-        // instrukcje
+        // statements
+        // sebuah return
         return [ "Alpha", arguments.length ];
       },
       beta: function() {
-        // instrukcje
+        // statements
+        // sebuah return
         return [ "Beta", arguments.length ];
       },
       _default: function() {
-        // instrukcje
+        // statements
+        // sebuah return
         return [ "Default", arguments.length ];
       }
     };
@@ -1175,33 +1204,37 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     delegator = function() {
       var args, key, delegate;
 
-      // zamiana listy arguments na tablicę
+      // Transform daftar argumen ke dalam array
       args = [].slice.call( arguments );
 
-      // przesunięcie klucza(przypadku) w argumentach
+      // menggeser key cases dari argumen
       key = args.shift();
 
-      // przypisz domyślny handler
+      // Menetapkan default case handler
       delegate = cases._default;
 
+      // Mengambil metode untuk mendelegasikan operasi
       if ( cases.hasOwnProperty( key ) ) {
         delegate = cases[ key ];
       }
 
+      // Ruang lingkup arg bisa diatur untuk sesuatu yang spesifik,
+      // dalam hal ini, | null | akan cukup
       return delegate.apply( null, args );
     };
 
     // 7.A.1.3
-    // Przykład użycia kodu z  7.A.1.2:
+    // Menempatkan API dalam 7.A.1.2 untuk bekerja:
 
     delegator( "alpha", 1, 2, 3, 4, 5 );
     // [ "Alpha", 5 ]
 
-    // Oczywiście zmienna `case` może też być zależna od innych warunków.
+    // Tentu saja, `case` argumen key bisa dengan mudah didasarkan
+    // pada beberapa kondisi yang sewenang-wenang lainnya.
 
     var caseKey, someUserInput;
 
-    // Albo od danych od użytkownika.
+    // Mungkin semacam masukan form?
     someUserInput = 9;
 
     if ( someUserInput > 10 ) {
@@ -1210,14 +1243,16 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       caseKey = "beta";
     }
 
-    // lub...
+    // atau...
 
     caseKey = someUserInput > 10 ? "alpha" : "beta";
+
+    // Dan Kemudian...
 
     delegator( caseKey, someUserInput );
     // [ "Beta", 1 ]
 
-    // And of course...
+    // Dan Tentu saja...
 
     delegator();
     // [ "Default", 0 ]
@@ -1225,12 +1260,12 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
 
     ```
 
-    B. Wcześniejsze wyjścia z funkcji zwiększają przejrzystość kodu.
+    B. Awal kembali mempromosikan pembacaan kode dengan perbedaan kinerja diabaikan
 
     ```javascript
 
     // 7.B.1.1
-    // Źle:
+    // Buruk:
     function returnLate( foo ) {
       var ret;
 
@@ -1242,7 +1277,7 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
       return ret;
     }
 
-    // Dobrze:
+    // Baik:
 
     function returnEarly( foo ) {
 
@@ -1255,30 +1290,36 @@ Poniższe rozdziały są jedynie sugestią jak pisać _rozsądny_ oraz nowoczesn
     ```
 
 
-8. <a name="native">Native & Host Objects</a>
+8. <a name="native">Native dan Host Objects</a>
 
-    Podstawowo zasada:
+    Prinsip dasar:
 
-    ### Nie rób głupot, a wszystko będzie ok.
+    ### Jangan melakukan omong kosong bodoh dan semuanya akan ok.
 
-    Aby lepiej przyswoić tę zasadę obejrzyj prezentacje:
+    Untuk memperkuat konsep ini, silahkan menonton presentasi berikut:
 
-    #### “Everything is Permitted: Extending Built-ins” by Andrew Dupont (JSConf2011, Portland, Oregon)
+    #### “Semuanya yang Diizinkan: Memperluas Built-in” by Andrew Dupont (JSConf2011, Portland, Oregon)
 
     https://www.youtube.com/watch?v=xL3xCO7CLNM
 
 
-9. <a name="comments">Komentarze</a>
+9. <a name="comments">Komentar</a>
 
-    #### Pojedyncza linia nad kodem stanowi tytuł.
-    #### Wieloliniowe komentarze są ok.
-    #### Zakańczanie komentarzy jednoliniowych jest zabronione
-    #### styl JSDoc jest poprawny, ale ciężki do opanowania
+    #### Satu baris dibawah kode itu adalah subjek
+    #### Multiline itu baik
+    #### Akhir dari line komentar terlarang!
+    #### Gaya JSDoc baik, tetapi membutuhkan waktu investasi yang signifikan
 
 
-10. <a name="language">Jeden język</a>
+10. <a name="language">One Language Code</a>
 
-    Wszystkie programy powinny być pisane w jednym języku.
+    Program harus ditulis dalam satu bahasa, apa pun bahasa yang mungkin, seperti yang ditentukan oleh pengelola atau pengelola.
+
+## Lampiran
+
+### Koma Pertama.
+
+Setiap proyek yang mengutip dokumen ini sebagai panduan dasar gaya yang tidak akan menerima format koma kode pertama, kecuali secara eksplisit ditentukan lain oleh penulis proyek ini.
 
 
 
