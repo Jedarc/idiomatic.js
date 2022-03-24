@@ -36,6 +36,8 @@
 * Richard Gibson [@gibson042](http://twitter.com/gibson042), [github](https://github.com/gibson042)  
 * Fesuy [github](https://github.com/fesuydev)  
 * Stephane Moreau [github](https://github.com/stmoreau)  
+* Boris Nekezov [github](https://github.com/boris-nekezov)
+* Akshat Joshi [@akshat_joshi](http://twitter.com/akshat_joshi), [github](https://https://github.com/akshatjoshii) 
 
 
 ## All code in any code-base should look like a single person typed it, no matter how many people contributed.
@@ -56,6 +58,7 @@
 
 ## Translations
 
+* [Bulgarian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/bg_BG)
 * [German](https://github.com/rwldrn/idiomatic.js/tree/master/translations/de_DE)
 * [French](https://github.com/rwldrn/idiomatic.js/tree/master/translations/fr_FR)
 * [Spanish](https://github.com/rwldrn/idiomatic.js/tree/master/translations/es_ES)
@@ -70,13 +73,14 @@
 * [Serbian - latin alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/sr_SR)
 * [繁體中文](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_TW)  
 * [Indonesian](https://github.com/rwaldron/idiomatic.js/tree/master/translations/id_ID)  
-* [Greek](https://github.com/rwaldron/idiomatic.js/tree/master/translations/gr_GR)  
+* [Greek](https://github.com/rwaldron/idiomatic.js/tree/master/translations/gr_GR)
+* [Hindi](https://github.com/rwaldron/idiomatic.js/tree/master/translations/hi_HI)  
 
 ## Important, Non-Idiomatic Stuff:
 
 ### Code Quality Tools, Resources & References
 
- * [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
+ * [SonarQube](https://www.sonarqube.org/)
  * [Plato](https://github.com/es-analysis/plato)
  * [jsPerf](http://jsperf.com/)
  * [jsFiddle](http://jsfiddle.net/)
@@ -98,7 +102,7 @@
 
 The following should be considered 1) incomplete, and 2) *REQUIRED READING*. I don't always agree with the style written by the authors below, but one thing is certain: They are consistent. Furthermore, these are authorities on the language.
 
- * [Baseline For Front End Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
+ * [Baseline For Front End Developers: 2015](https://rmurphey.com/posts/a-baseline-for-front-end-developers-2015/)
  * [Eloquent JavaScript](http://eloquentjavascript.net/)
  * [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
  * [Adventures in JavaScript Development](http://rmurphey.com/)
